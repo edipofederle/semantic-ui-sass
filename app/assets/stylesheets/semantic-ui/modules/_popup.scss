@@ -1,3 +1,7 @@
+$import-google-fonts: true !default;
+$font-url: 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext' !default;
+$font-name: 'Lato' !default;
+$font-family: $font-name, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
 /*!
  * # Semantic UI 2.3.1 - Popup
  * http://github.com/semantic-org/semantic-ui/
@@ -18,7 +22,7 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  
+
 /* Fixes content being squished when inline (moz only) */
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
@@ -749,4 +753,3 @@
 /*******************************
         User Overrides
 *******************************/
-
